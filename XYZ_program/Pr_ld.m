@@ -8,7 +8,7 @@
 %         deviation_angle_size - the dimension of deviation angle between LPA and LRA.
 %         LRAs - the LRA Attached to each key key_point.
 
-%  output:Hist_out - the vectors of SDASS descriptor generated on all key pointcloud.
+%  output:Hist_out - the vectors of fPr(ld) descriptor generated on all key pointcloud.
 height_size=1;
 
 L_key_points=length(Key_indices);
