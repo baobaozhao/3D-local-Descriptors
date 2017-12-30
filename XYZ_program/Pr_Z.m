@@ -6,10 +6,9 @@
 %         R - the support radius for determining the local surface to calculate SDASS descriptor.
 %         projected_radial_size - the dimension of height distance.
 %         height_size - the dimension of height distance.
-%         deviation_angle_size - the dimension of deviation angle between LPA and LRA.
 %         LRAs - the LRA Attached to each key key_point.
 
-%  output:Hist_out - the vectors of SDASS descriptor generated on all key pointcloud.
+%  output:Hist_out - the vectors of fprz descriptor generated on all key pointcloud.
 deviation_angle_size=1;
 L_key_points=length(Key_indices);
 hist_size=deviation_angle_size*height_size*projected_radial_size;
